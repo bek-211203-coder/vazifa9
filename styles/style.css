@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter';
+    background-color: #F9FAFB;
+}
+.container{
+    width: 100%;
+    max-width: 1058px;
+    margin: 0 auto;
+}
+.header__container{
+    margin-bottom: 64px;
+}
+.hero-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1B152B;
+    border-radius: 47px;
+    margin-top: 10px;
+    padding: 12px 20px;
+
+}
+
+.logo-hero a{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+
+    align-items: center;
+    gap: 16px;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+}
+.nav-list a:hover{
+    color: #7F56D9;
+}
+.buttons{
+    padding: 8px 30px;
+    text-decoration: none;
+    background-color: #7F56D9;
+    color: white;
+    border-radius: 20px;
+    transition: all 0.5s;
+ }
+ .buttons:hover{
+    background-color: #553a8e;
+ }
+
+ /* main style */
+
+ .main__container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+ }
+ .main-title{
+    font-size: 69px;
+    color: #1B152B;
+    line-height: -4px;
+    margin-bottom: 16px;
+ }
+ .main-text{
+    font-size: 16px;
+    color: #7A7D9C;
+    margin-bottom: 16px;
+ }
+
+.main-button{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 48px;
+}
+ .Sign{
+    padding: 8px 30px;
+    color: white;
+    text-decoration: none;
+    background-color: #1B152B;
+    border-radius: 20px;
+ }
+ .main__img{
+    margin-bottom: 48px;
+ }
+ .main__img img{
+    width: 100%;
+    height: 388px;
+ }
+
+ .Users{
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.4);
+    border-radius: 15px;
+    margin-bottom: 64px;
+    padding: 16px 48px;
+    box-shadow: 0px 0px 10px 3px rgba(128, 128, 128 0.8);
+ }
+ .card span{
+    font-weight: 600;
+    font-size: 48px;
+    color: #7F56D9;
+ }
+ .card p{
+    color: #7F56D9;
+    font-size: 24px;
+ }
+.block{
+    border-left: 1px solid rgba(128, 128, 128, 0.4);
+    border-right: 1px solid rgba(128, 128, 128, 0.4);
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+@media screen and (max-width: 960px){
+    .container{
+        width: 100%;
+        max-width: 692px;
+        margin: 0 auto;  
+    }
+}
