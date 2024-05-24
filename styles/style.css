@@ -12,6 +12,10 @@ body{
     max-width: 1058px;
     margin: 0 auto;
 }
+
+.burger{
+    display: none;
+}
 .header__container{
     margin-bottom: 64px;
 }
@@ -176,5 +180,28 @@ body{
     .Users{
         display: flex;
         flex-direction: column;
+        gap: 30px;
+
+    }
+    .card span, p{
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .block{
+        border-left: none;
+        border-right: none;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .block{
+        width: 180px;
+        border-top: 1px solid rgba(128, 128, 128, 0.4);
+        border-bottom: 1px solid rgba(128, 128, 128, 0.4);
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .burger{
+        display: block;
     }
 }
